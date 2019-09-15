@@ -1,0 +1,11 @@
+<form>
+    <label for="Register">
+        <input type="text" placeholder="First Name" #firstNameInp><br>
+        <input type="text" placeholder="Last Name" #lastNameInp><br>
+        <input type="text" placeholder="Mobile Number" #mobileInp><br>
+        <input type="text" placeholder="Email ID" #emailInp><br>
+        <input type="number" placeholder="Age" #ageInp><br>
+        <input type="password" placeholder="Password" #passInp><br>
+        <button (click)="onRegister(firstNameInp.value, lastNameInp.value, mobileInp.value, emailInp.value, ageInp.value, passInp.value)">Register</button>  
+    </label>
+</form>

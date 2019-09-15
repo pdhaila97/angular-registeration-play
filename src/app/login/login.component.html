@@ -1,0 +1,7 @@
+<form>
+    <label for="Login">
+        <input type="text" placeholder="Email ID" #emailInp><br>
+        <input type="password" placeholder="password" #passInp><br>
+        <button (click)="onLogin(emailInp.value, passInp.value)">Login</button>  
+    </label>
+</form>
